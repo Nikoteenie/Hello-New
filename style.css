@@ -1,7 +1,53 @@
-body {
-  font-family: "Segoe UI";
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
-h1{
+body {
+  background-color: white;
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  color: black;
+  font-size: 96px;
   font-weight: 700;
+  line-height: 127.97pt;
+  padding-bottom: 0px;
+}
+
+h2 {
+  font-family: var(--heading-font-family);
+  color: #272142;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+}
+
+p {
+  font-family: var(--default-font-family);
+  color: #272142;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  margin-bottom: 0px;
+}
+
+.btn {
+  padding: 15px 30px;
+  border-radius: 4px;
+  background-color: var(--branding-color);
+  color: white;
+  font-family: var(--default-font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
 }
