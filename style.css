@@ -93,6 +93,10 @@ p{
     margin-bottom: 2px;
   }
 
+  .hero p {
+    font-size: 25px;
+  }
+
   h2 {
     font-size: 44px;
   }
