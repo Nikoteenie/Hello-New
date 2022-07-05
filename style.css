@@ -54,6 +54,30 @@ p{
   margin: 0px;
 }
 
+.about-section {
+   padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 1.5;
+    font-family: var(--heading-font-family);
+     color: black;
+ 
+  font-weight: 700;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: car(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+
+
 .btn-branding {
   padding: 15px 30px;
   border-radius: 4px;
@@ -104,6 +128,11 @@ p{
   .hero {
  
   padding: 50px 20px;
+}
+
+.about-section {
+  text-align: center;
+  padding: 5px;
 }
 
   .project-description {
